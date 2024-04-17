@@ -131,11 +131,15 @@
     )
   )
 
-  (junction (at 118.11 72.39) (diameter 0) (color 0 0 0 0)
-    (uuid 5ae7abad-59ba-496f-855c-4d3d0e8dc72f)
+  (junction (at 100.33 72.39) (diameter 0) (color 0 0 0 0)
+    (uuid aef74894-815a-4c18-ad75-41e4c64ab362)
   )
 
-  (wire (pts (xy 90.17 72.39) (xy 101.6 72.39))
+  (wire (pts (xy 100.33 72.39) (xy 101.6 72.39))
+    (stroke (width 0) (type default))
+    (uuid 9a139218-b614-4357-821b-7f4f396438fe)
+  )
+  (wire (pts (xy 90.17 72.39) (xy 100.33 72.39))
     (stroke (width 0) (type default))
     (uuid b8a79c62-e8cb-4e4f-8858-6a46b1b813ab)
   )
@@ -146,6 +150,31 @@
   (wire (pts (xy 118.11 72.39) (xy 111.76 72.39))
     (stroke (width 0) (type default))
     (uuid ea171eee-9d72-4271-b856-56d48d065670)
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 100.33 72.39 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 308a5acb-b4da-483f-a909-8cbd2835c7ad)
+    (property "Reference" "TP2" (at 102.87 67.818 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TestPoint" (at 102.87 70.358 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm" (at 105.41 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 105.41 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3e15beca-6f7c-42a3-bcf0-2897eaf59dec))
+    (instances
+      (project "microstripline"
+        (path "/63708f41-c6db-4494-ada6-cb11297e0fe7"
+          (reference "TP2") (unit 1)
+        )
+      )
+    )
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 90.17 72.39 0) (unit 1)
@@ -194,31 +223,6 @@
       (project "microstripline"
         (path "/63708f41-c6db-4494-ada6-cb11297e0fe7"
           (reference "JP1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:TestPoint") (at 118.11 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b0b0e212-a5e3-4ea2-be70-b2f4ef7f5739)
-    (property "Reference" "TP2" (at 120.65 67.818 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TestPoint" (at 120.65 70.358 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.85mm" (at 123.19 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 123.19 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 919b7c4d-185a-488c-b93e-e483902d555d))
-    (instances
-      (project "microstripline"
-        (path "/63708f41-c6db-4494-ada6-cb11297e0fe7"
-          (reference "TP2") (unit 1)
         )
       )
     )
