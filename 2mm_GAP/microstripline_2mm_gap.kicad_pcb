@@ -229,7 +229,7 @@
     (property "ki_keywords" "test point tp")
     (path "/612b7ed2-71d6-4ad5-a7fc-1fb8d78ee270")
     (attr through_hole)
-    (fp_text reference "TP1" (at 0.7 2.8) (layer "F.SilkS")
+    (fp_text reference "TP1" (at 0.7 2.8) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cf78a867-b862-4544-af4a-1434eb55c06e)
     )
@@ -323,7 +323,7 @@
     (property "ki_keywords" "Jumper SPST")
     (path "/61d185bb-1611-442c-bb7b-6f21c72f366d")
     (attr exclude_from_pos_files)
-    (fp_text reference "JP1" (at 0 -1.8) (layer "F.SilkS")
+    (fp_text reference "JP1" (at 0 -1.8) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 74240036-98ef-48b5-9877-058f398d19b7)
     )
@@ -398,7 +398,7 @@
     (property "ki_keywords" "test point tp")
     (path "/308a5acb-b4da-483f-a909-8cbd2835c7ad")
     (attr through_hole)
-    (fp_text reference "TP2" (at 0.7 2.8) (layer "F.SilkS")
+    (fp_text reference "TP2" (at 0.7 2.8) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5c63c3cc-aabd-4651-862b-20443d744750)
     )
