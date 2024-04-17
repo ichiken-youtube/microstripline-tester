@@ -29,7 +29,7 @@ fp-info-cache
 *.xml
 *.csv
 
-production/
+*/production/
 *.zip
 *.gbr
 *.drl
